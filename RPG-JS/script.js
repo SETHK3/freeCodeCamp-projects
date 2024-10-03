@@ -51,6 +51,7 @@ function goTown() {
   }
 
 function goStore() {
+    update(location[1]);
   }
   
 
@@ -68,4 +69,12 @@ function buyHealth() {
 
 function buyWeapon() {
 
+}
+
+function fightSlime() {
+
+}
+
+function fightBeast() {
+  
 }
