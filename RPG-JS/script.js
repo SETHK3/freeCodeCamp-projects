@@ -197,6 +197,11 @@ function goCave() {
   }
 }
 
+function getMonsterAttackValue(level) {
+    const hit = (level * 5) - (Math.floor(Math.random() * xp))
+    console.log(hit)
+}
+
 function dodge() {
     text.innerText = "You dodge the attack from the " + monsters[fighting].name;
 }
