@@ -12,5 +12,5 @@ const darkColorsArr = [
   ];
 
   function getRandomIndex() {
-    console.log(darkColorsArr.length * Math.random())
+    console.log(Math.floor(darkColorsArr.length * Math.random()))
   }
