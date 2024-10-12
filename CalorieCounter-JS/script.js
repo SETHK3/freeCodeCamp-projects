@@ -76,4 +76,5 @@ function getCaloriesFromInputs(list) {
     return calories;
 }
 
-addEntryButton.addEventListener('click', addEntry)
+addEntryButton.addEventListener('click', addEntry);
+calorieCounter.addEventListener('submit', calculateCalories);
