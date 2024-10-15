@@ -1,6 +1,13 @@
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
+  padding: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
 }
 
 h1 {
