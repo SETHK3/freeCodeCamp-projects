@@ -2,9 +2,24 @@ h1 {
   text-align: center;
 }
 
+.container {
+  background-color: rgb(0, 0, 0);
+}
+
 .marker {
-  background-color: red;
   height: 25px;
   width: 200px;
-  margin: auto;
+  margin: 10px auto;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
 }
