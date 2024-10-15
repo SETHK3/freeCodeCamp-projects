@@ -63,3 +63,25 @@ h2 {
   text-align: right;
   width: 50%;
 }
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
