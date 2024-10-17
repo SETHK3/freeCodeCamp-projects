@@ -10,19 +10,32 @@
     <p id="description">description</p>
 
     <form id="survey-form">
-      <label for="name"
+      <label for="name" id="name-label"
         >Name
-        <input type="text" id="name" />
+        <input type="text" id="name" placeholder="Enter your name" required />
       </label>
 
-      <label for="email"
+      <label for="email" id="email-label"
         >Email
-        <input type="email" name="email" id="email" required />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
       </label>
 
-      <label for="number"
+      <label for="number" id="number-label"
         >Age
-        <input type="number" id="number" min="13" max="120" />
+        <input
+          type="number"
+          id="number"
+          placeholder="Age"
+          min="13"
+          max="120"
+          required
+        />
       </label>
     </form>
   </body>
