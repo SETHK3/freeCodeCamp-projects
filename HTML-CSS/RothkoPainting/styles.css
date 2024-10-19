@@ -1,4 +1,5 @@
 .canvas {
+  position: relative;
   width: 500px;
   height: 600px;
   background-color: #4d0f00;
@@ -29,7 +30,7 @@
   background-color: #8f0401;
   margin: 0 auto 20px;
   box-shadow: 0 0 3px 3px #8f0401;
-  border-radius: 8px 10px;
+  border-radius: 50px 10px;
   transform: rotate(0.4deg);
 }
 
@@ -47,4 +48,22 @@
   box-shadow: 0 0 5px 5px #b20403;
   border-radius: 30px 25px 60px 12px;
   transform: rotate(-0.2deg);
+}
+.one,
+.two,
+.three {
+  z-index: 0;
+  position: relative;
+}
+
+.line {
+  background-color: palevioletred;
+  width: 2%;
+  height: 98%;
+  margin: auto;
+  z-index: 10;
+  position: absolute;
+  top: 1%;
+  left: 49%;
+  border-radius: 60px 25px 60px 12px;
 }
