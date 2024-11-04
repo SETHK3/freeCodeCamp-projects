@@ -31,9 +31,15 @@
         method="post"
         action="https://freecodecamp.org/practice-project/accessibility-quiz"
       >
-        <section role="region"></section>
-        <section role="region"></section>
-        <section role="region"></section>
+        <section role="region" aria-labelledby="student-info">
+          <h2 id="student-info"></h2>
+        </section>
+        <section role="region" aria-labelledby="html-questions">
+          <h2 id="html-questions"></h2>
+        </section>
+        <section role="region" aria-labelledby="css-questions">
+          <h2 id="css-questions"></h2>
+        </section>
       </form>
     </main>
   </body>
