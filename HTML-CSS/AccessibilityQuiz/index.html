@@ -35,12 +35,7 @@
           <h2 id="student-info">Student Info</h2>
           <div class="info">
             <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="e.g. Seth Gartz"
-            />
+            <input type="text" id="name" name="name" />
           </div>
 
           <div class="info">
@@ -53,9 +48,38 @@
             <input type="date" id="birth-date" name="birth-date" />
           </div>
         </section>
+
         <section role="region" aria-labelledby="html-questions">
           <h2 id="html-questions">HTML Questions</h2>
+          <div class="question-block">
+            <h3><span class="sr-only">Question</span>1</h3>
+            <fieldset class="question" name="question-1">
+              <legend>
+                The legend element represents a caption for the content of its
+                parent fieldset element
+              </legend>
+              <ul class="answers-list">
+                <li></li>
+                <li></li>
+              </ul>
+            </fieldset>
+          </div>
+
+          <div class="question-block">
+            <h3><span class="sr-only">Question</span>2</h3>
+            <fieldset class="question" name="question-2">
+              <legend>
+                A label element nesting an input element is required to have a
+                for attribute with the same value as the input's id
+              </legend>
+              <ul class="answers-list">
+                <li></li>
+                <li></li>
+              </ul>
+            </fieldset>
+          </div>
         </section>
+
         <section role="region" aria-labelledby="css-questions">
           <h2 id="css-questions">CSS Questions</h2>
         </section>
